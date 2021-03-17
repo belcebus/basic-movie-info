@@ -1,0 +1,31 @@
+name: Checking Markdown
+
+on: [pull_request]
+
+jobs:
+  markdownlint:
+    name: Checking markdown lint
+    runs-on: ubuntu-latest
+    steps:
+      - 
+        uses: actions/checkout@v2
+      - 
+        name: 🚀 Use Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: '12.x'
+      - 
+        run: npm install -g markdownlint-cli@0.25.0
+      - 
+        run: markdownlint '**/*.md'
+  markdown-link-check:
+    name: Checking markdown links
+    runs-on: ubuntu-latest
+    steps:
+      - 
+        uses: actions/checkout@master
+      - 
+        uses: gaurav-nelson/github-action-markdown-link-check@v1
+        with:
+          use-quiet-mode: 'yes'
+          use-verbose-mode: 'yes'
