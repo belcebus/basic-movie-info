@@ -12,7 +12,7 @@ GitHub Action to retrieve a movie information from
     runs-on: ubuntu-latest
 
     steps:
-      - 
+      -
         name: Retrieve movie info
         uses: belcebus/movie-info@v1
         with:
