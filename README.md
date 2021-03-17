@@ -1,6 +1,9 @@
-# movie-info
+# movie-info GitHub Action
+
 ## Description
-Action to retrieve a movie information from [OMDB API](https://www.omdbapi.com)
+
+GitHub Action to retrieve a movie information from
+[OMDB API](https://www.omdbapi.com)
 
 ## Use
 
@@ -19,4 +22,7 @@ Action to retrieve a movie information from [OMDB API](https://www.omdbapi.com)
 
 ## Needs
 
-[OMDB API](https://www.omdbapi.com) is still free to use, but you will need to get an _API Key_ in order to retrieve information from its _API_. You can refer to the [Generate API Key form](https://www.omdbapi.com/apikey.aspx) to create your _API Key_.
+[OMDB API](https://www.omdbapi.com) is still free to use, but you will need to
+get an _API Key_ in order to retrieve information from its _API_. You can refer
+to the [Generate API Key form](https://www.omdbapi.com/apikey.aspx) to create
+your _API Key_.

@@ -1,0 +1,32 @@
+name: "movie-info"
+description: "Retrieve the given movie info from OMDB"
+author: belcebus
+
+inputs:
+  movie-title:
+    description: "The movie title"
+    required: "true"
+    default: "The wizard of OZ"
+  api-key:
+    description: "Open Movie Database api-key to retrieve the information"
+    required: "true"
+
+outputs:
+  movie-title:
+    description: "The real movie title"
+  movie-year:
+    description: "The movie year"
+  movie-director:
+    description: "The movie director"
+  movie-score:
+    description: "IMDB movie score"
+  movie-plot:
+    description: "Movie plot"
+
+runs:
+  using: "node12"
+  main: "dist/index.js"
+
+branding:
+  icon: 'film'
+  color: 'orange'
