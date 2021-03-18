@@ -1,4 +1,4 @@
-name: "movie-info"
+name: "basic-movie-info"
 description: "Retrieve the given movie info from OMDB"
 author: belcebus
 
