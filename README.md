@@ -14,7 +14,7 @@ GitHub Action to retrieve a movie information from
     steps:
       -
         name: Retrieve movie info
-        uses: belcebus/movie-info@v1
+        uses: belcebus/movie-info@v1.0
         with:
           movie-title: "The wizard of oz"
           api-key: ${{ secrets.TOKEN_API }}
