@@ -19,6 +19,7 @@ GitHub Action to retrieve a movie information from
           movie-title: "The wizard of oz"
           api-key: ${{ secrets.TOKEN_API }}
 ```
+
 The previous code will print the following text:
 
 _Movie "The Wizard of Oz" directed by Victor Fleming, George Cukor, Mervyn
